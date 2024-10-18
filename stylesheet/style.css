@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../images/IMG_5365.jpg'); /* Set background image here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh; /* Use less than 100vh to show more of the image */
+    overflow: hidden; /* Prevent scrolling */
+
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    justify-content: center; /* Centers the logo and nav links */
+    padding: 10px 20px; /* Adjust padding as needed */
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+.logo img {
+    height: 200px; /* Adjust logo height */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 25px; /* Space between logo and nav links */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 25px; /* Space between nav items */
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 20px; /* Adjust padding for better click area */
+}
+
+
+.container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: calc(90vh - 60px); /* Adjust height to account for navbar height */
+    
+}
+
+
+.header {
+    text-align: center; /* Center text within the header */
+}
+
+.header h1 {
+    font-size: 40px;
+    color: white; /* Adjust color for visibility */
+    margin: 0; /* Remove default margin */
+}
+
+.button {
+    height: 20px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: black;
+    padding: 25px;
+    color: aliceblue;
+    text-align: center;
+
+}
